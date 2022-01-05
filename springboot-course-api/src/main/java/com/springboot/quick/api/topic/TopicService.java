@@ -23,4 +23,9 @@ public class TopicService {
 		return topics;
 	}
 
+	public Topic getTopic(String id) {
+		// TODO Auto-generated method stub
+		return topics.stream().filter(t->t.getId().equals(id)).findFirst().get();
+	}
+
 }
