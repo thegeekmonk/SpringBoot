@@ -23,6 +23,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
        <artifactId>spring-boot-starter-web</artifactId>
      </dependency>
      
+     		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+     
      
             
   </dependencies>

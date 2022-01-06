@@ -7,11 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CourseApi {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 	   //static class	
        SpringApplication.run(CourseApi.class, args);
 		
 	}
-
 }
 	
